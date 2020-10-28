@@ -1,0 +1,132 @@
+@charset "UTF-8";
+.ui-flex,
+.ui-flex *,
+.ui-flex:after,
+.ui-flex:before{
+	box-sizing:border-box;
+}
+.ui-flex.justify-center{
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	-ms-flex-back:center;
+	justify-content:center;
+}
+.ui-flex.center{
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	-ms-flex-back:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+}
+.top{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 200px;
+  background-color: rgb(128, 255, 255);
+  font-size: 50px;
+  font-family: "STXingKai";
+  color: rgb(102, 102, 102);
+  text-align:center;
+  line-height:200px;
+}
+.left{
+  border-width: 10px;
+  border-color: rgb(192, 192, 192);
+  border-style: inset;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+  width: 280px;
+  height: 1913px;
+  background:linear-gradient(rgb(64,128,128),rgb(0,128,255));
+  font-size: 28px;
+  font-family: "SourceHanSansCN";
+  color: rgb(102, 102, 102);
+  text-align:center;
+  line-height:200px;
+}
+.left1{
+  position: absolute;
+  left: 50px;
+  top: 80px;
+  width: 180px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "SourceHanSansCN";
+  color: rgb(102, 102, 102);
+  text-align:center;
+  line-height:20px;
+}
+.main{
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  width: 1100px;
+  height: 1933px;
+  background-color: rgb(192, 192, 192);
+  font-size: 28px;
+  font-family: "STHupo";
+  color: rgb(102, 102, 102);
+  text-align:center;
+  line-height:200px;
+
+}
+.main1{
+  width: 49%;
+  height: 16.6%;
+  float: left;
+  text-align:center;
+  line-height:300px;
+  word-wrap:break-word;
+  overflow:hidden;
+}
+.bottom{
+  position: absolute;
+  left: 0px;
+  top: 2133px;
+  width: 1400px;
+  height: 20px;
+  background-color: rgb(128, 0, 255);
+  font-size: 8px;
+  font-family: "SourceHanSansCN";
+  color: rgb(255, 255, 255);
+  text-align:center;
+}
+.img1{
+	height:200px;
+	width:1400px;
+}
+.black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index: 1001;
+        opacity: .70;
+    }
+.white_content{
+        display: none;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        width: 60%;
+        height: 60%;
+        padding: 16px;
+        border: 16px solid orange;
+        background-color: white;
+        z-index: 1002;
+        overflow: auto;
+    }
+a:link {color:#000000;}      /* 未访问链接*/
+a:visited {color:#000080;}  /* 已访问链接 */
+a:hover {color:#ff0000;}  /* 鼠标移动到链接上 */
+a:active {color:#00ff00;}  /* 鼠标点击时 */
+ul.a {list-style-type:circle;}
