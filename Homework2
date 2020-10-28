@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>我的主页</title>
+<link rel="stylesheet" type="text/css" href="myfile.css">
+<script type="text/javascript">
+var img = document.getElementById('img');
+
+function bigger(){
+ img.style.width = '400px';
+ img.style.height = '400px';
+}
+
+function smaller(){
+ img.style.width = '100px';
+ img.style.height = '100px';
+}
+
+var Ptr=document.getElementById("img1");
+for(var i=0;i<Ptr.length;i++) {
+        Ptr[i].οnclick=function(){
+                window.open(this.src)
+        };
+}
+
+</script>
+</head>
+
+<body>
+<div id="light1" class="white_content">
+    <img alt="" src=pic1.png width=90% height=100%>
+<a href="javascript:void(0)" 
+    onclick="document.getElementById('light1').style.display='none';
+    document.getElementById('fade').style.display='none'">关闭</a>
+</div>
+<div id="light2" class="white_content">
+    <img alt="" src=pic2.jpeg width=90% height=100%>
+<a href="javascript:void(0)" 
+    onclick="document.getElementById('light2').style.display='none';
+    document.getElementById('fade').style.display='none'">关闭</a>
+</div>
+<div id="light3" class="white_content">
+    <img alt="" src=pic3.jpeg width=90% height=100%>
+<a href="javascript:void(0)" 
+    onclick="document.getElementById('light3').style.display='none';
+    document.getElementById('fade').style.display='none'">关闭</a>
+</div>
+<div id="light4" class="white_content">
+    <img alt="" src=pic4.jpeg width=90% height=100%>
+<a href="javascript:void(0)" 
+    onclick="document.getElementById('light4').style.display='none';
+    document.getElementById('fade').style.display='none'">关闭</a>
+</div>
+<div id="light5" class="white_content">
+    <img alt="" src=pic5.jpg width=90% height=100%>
+<a href="javascript:void(0)" 
+    onclick="document.getElementById('light5').style.display='none';
+    document.getElementById('fade').style.display='none'">关闭</a>
+</div>
+<div id="light6" class="white_content">
+    <img alt="" src=pic6(new).jpg width=90% height=100%>
+<a href="javascript:void(0)" 
+    onclick="document.getElementById('light6').style.display='none';
+    document.getElementById('fade').style.display='none'">关闭</a>
+</div>
+<div id="fade" class="black_overlay"></div>
+<div class=top style="background-repeat:no-repeat; background-size:100%; background-image:url(top.jpg);">
+	欢迎来到我的王者历程！
+</div>
+<div class=left>
+	<div class=left1>
+	<ul class=a>
+		<li><a href="new.html" style="text-decoration:none;">个人信息</a></li><br>
+		<li><a href="" style="text-decoration:none;">功能1</a></li><br>
+		<li><a href="" style="text-decoration:none;">功能2</a></li><br>
+		<li><a href="" style="text-decoration:none;">功能3</a></li><br>
+		<li><a href="" style="text-decoration:none;">功能4</a></li><br>
+	</ul>
+	</div>
+</div>
+<div class=main style="background-repeat:repeat; background-size:100%; background-image:url(bgd.jpg);">
+
+	<div class=main1>
+		<span>2019.6.10</span>
+		<span>入坑</span>
+	</div>
+	<div class=main1>
+		<img id="img1" onclick="document.getElementById('light1').style.display='block'" src="pic1.png" style="cursor:pointer;width:400px;height:250px;" align="middle"/>
+	</div>
+	<div class=main1>
+		<img id="img2" onclick="document.getElementById('light2').style.display='block'" src="pic2.jpeg" style="cursor:pointer;width:400px;height:250px;" align="middle"/>
+	</div>
+	<div class=main1>
+		<span>2019.2.11</span>
+		<span>一波连胜</span>
+	</div>
+	<div class=main1>
+		<span>2020.3.7</span>
+		<span>第一次五杀</span>
+	</div>
+	<div class=main1>
+		<img id="img3" onclick="document.getElementById('light3').style.display='block'" src="pic3.jpeg" style="cursor:pointer;width:400px;height:250px;" align="middle"/>
+	</div>
+	<div class=main1>
+		<img id="img4" onclick="document.getElementById('light4').style.display='block'" src="pic4.jpeg" style="cursor:pointer;width:400px;height:250px;" align="middle"/>
+	</div>
+	<div class=main1>
+		<span>2020.7.8</span>
+		<span>第一次上王者</span>
+	</div>
+	<div class=main1>
+		<span>2020.8.25</span>
+		<span>第一次满评分</span>
+	</div>
+	<div class=main1>
+		<img id="img5" onclick="document.getElementById('light5').style.display='block'" src="pic5.jpg" style="cursor:pointer;width:400px;height:250px;" align="middle"/>
+	</div>
+	<div class=main1>
+		<img id="img6" onclick="document.getElementById('light6').style.display='block'" src="pic6(new).jpg" style="cursor:pointer;width:400px;height:250px;" align="middle"/>
+	</div>
+	<div class=main1>
+		<span>2020.10.26</span>
+		<span>我的荣誉称号</span>
+	</div>
+</div>
+<div class=bottom>
+	Copyright @Ge
+</div>
+</body>
+</html>
